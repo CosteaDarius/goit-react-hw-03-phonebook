@@ -1,0 +1,59 @@
+.container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .contact-form input {
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .contact-form button {
+    margin-top: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .contact-list button {
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter input {
+    padding: 5px;
+  }
+  
